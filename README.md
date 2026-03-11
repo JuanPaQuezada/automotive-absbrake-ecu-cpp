@@ -43,4 +43,9 @@ arm-none-eabi-g++ -c sensor_abs.cpp -o sensor_abs.o
 arm-none-eabi-g++ main.o sensor_abs.o -o firmware.elf
 arm-none-eabi-objcopy -O binary firmware.elf firmware.bin
 ```
-```
+
+## Author
+
+**Juan Pablo Quezada**
+B.Sc. in Intelligent Computing Engineering
+Universidad Autónoma de Aguascalientes (UAA)
