@@ -1,7 +1,7 @@
 # automotive-absbrake-ecu-cpp
 A safety-critical C++ firmware template for Automotive ABS ECUs, demonstrating RAII, zero-dynamic-memory Ring Buffers, and safe memory-mapped I/O.
 
- Automotive ABS Sensor Firmware (Safe C++) 🚗🛑
+# Automotive ABS Sensor Firmware (Safe C++)
 
 ## Overview
 This repository contains a modular, production-ready C++ implementation designed for a safety-critical **Anti-lock Braking System (ABS) Electronic Control Unit (ECU)**. It demonstrates how to safely interface with wheel speed sensors using memory-mapped peripherals, manage hardware lifecycles automatically with RAII, and store high-speed telemetry data efficiently without relying on dynamic memory allocation.
