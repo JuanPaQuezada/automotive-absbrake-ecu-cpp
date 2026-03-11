@@ -1,7 +1,6 @@
-# automotive-absbrake-ecu-cpp
-A safety-critical C++ firmware template for Automotive ABS ECUs, demonstrating RAII, zero-dynamic-memory Ring Buffers, and safe memory-mapped I/O.
+# Automotive ABS Sensor Firmware (Safe C++) 
 
-# Automotive ABS Sensor Firmware (Safe C++)
+*A safety-critical C++ firmware template for Automotive ABS ECUs, demonstrating RAII, zero-dynamic-memory Ring Buffers, and safe memory-mapped I/O.*
 
 ## Overview
 This repository contains a modular, production-ready C++ implementation designed for a safety-critical **Anti-lock Braking System (ABS) Electronic Control Unit (ECU)**. It demonstrates how to safely interface with wheel speed sensors using memory-mapped peripherals, manage hardware lifecycles automatically with RAII, and store high-speed telemetry data efficiently without relying on dynamic memory allocation.
@@ -22,16 +21,26 @@ This repository contains a modular, production-ready C++ implementation designed
  ┣ 📜 sensor_abs.cpp   # Low-level memory mapping for the ABS hardware
  ┗ 📜 main.cpp         # Main ECU application logic
 ```
-### How to Build & Run
-1. Native PC Simulation (Windows / Linux / macOS)
-Compile and test the ABS software logic natively on your computer. (Note: The physical memory read is swapped to simulated data to prevent a Segmentation Fault).
+
+## How to Build & Run
+
+### 1. Native PC Simulation (Windows / Linux / macOS)
+Compile and test the ABS software logic natively on your computer. *(Note: The physical memory read is swapped to simulated data to prevent a Segmentation Fault).*
+
+```bash
 g++ -c main.cpp -o main.o
 g++ -c sensor_abs.cpp -o sensor_abs.o
 g++ main.o sensor_abs.o -o abs_ecu_sim
 ./abs_ecu_sim
-2. Cross-Compilation for ARM Cortex-M (Bare-metal)
+```
+
+### 2. Cross-Compilation for ARM Cortex-M (Bare-metal)
 To build the firmware for the actual microcontroller inside the vehicle's ECU:
+
+```bash
 arm-none-eabi-g++ -c main.cpp -o main.o
 arm-none-eabi-g++ -c sensor_abs.cpp -o sensor_abs.o
 arm-none-eabi-g++ main.o sensor_abs.o -o firmware.elf
 arm-none-eabi-objcopy -O binary firmware.elf firmware.bin
+```
+```
