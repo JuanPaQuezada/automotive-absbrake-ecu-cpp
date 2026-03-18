@@ -34,10 +34,11 @@ This repository contains a modular, production-ready C++ implementation designed
 
 ### 1. Native PC Simulation (Windows / Linux / macOS)
 Compile and test the ABS software logic natively on your computer. *(Note: The physical memory read is swapped to simulated data to prevent a Segmentation Fault).*
+# Compile with strict determinism flags (No exceptions, No RTTI)
 
 ```bash
-g++ -c main.cpp -o main.o
-g++ -c sensor_abs.cpp -o sensor_abs.o
+g++ -fno-exceptions -fno-rtti -c main.cpp -o main.o
+g++ -fno-exceptions -fno-rtti -c sensor_abs.cpp -o sensor_abs.o
 g++ main.o sensor_abs.o -o abs_ecu_sim
 ./abs_ecu_sim
 ```
@@ -46,8 +47,8 @@ g++ main.o sensor_abs.o -o abs_ecu_sim
 To build the firmware for the actual microcontroller inside the vehicle's ECU:
 
 ```bash
-arm-none-eabi-g++ -c main.cpp -o main.o
-arm-none-eabi-g++ -c sensor_abs.cpp -o sensor_abs.o
+arm-none-eabi-g++ -fno-exceptions -fno-rtti -c main.cpp -o main.o
+arm-none-eabi-g++ -fno-exceptions -fno-rtti -c sensor_abs.cpp -o sensor_abs.o
 arm-none-eabi-g++ main.o sensor_abs.o -o firmware.elf
 arm-none-eabi-objcopy -O binary firmware.elf firmware.bin
 ```
