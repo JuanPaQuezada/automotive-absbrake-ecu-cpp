@@ -18,7 +18,6 @@ This repository contains a modular, production-ready C++ implementation designed
 * **Flash-Optimized Lightweight Asserts:** Replaces the standard C++ `<cassert>` (which wastes valuable Flash memory by storing long filenames and strings) with a custom `light_assert` macro [13, 14]. Upon failure, it halts the ECU and logs only the Program Counter (PC) memory address for efficient post-mortem debugging [15, 16].
 * **Deterministic Execution & Panic Handling:** Compiled with strict flags (`-fno-exceptions` and `-fno-rtti`) to disable non-deterministic C++ features and reduce binary size [2, 17]. Critical failures route to a custom `std::set_terminate` handler to safely shut down the ABS actuators before a system reset [18, 19].
 * **Zero Namespace Pollution:** Strict adherence to C++ best practices in header design, avoiding `using namespace std;` in `.h` files to prevent catastrophic naming collisions in large-scale integrations [20].
-2. Actualiza tu sección de compilación (## How to Build & Run)
 
 
 ## Project Structure
