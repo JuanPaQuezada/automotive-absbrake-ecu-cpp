@@ -1,0 +1,10 @@
+^C:\USERS\JUAN PABLO\DOCUMENTS\PROGRAMASC\PRACTICASCUNI\ESTRUCTURASDATOS2A\ABS-BRAKING-SENSORSNETWORKS\TESTS\BUILD\CMAKEFILES\31C27C42A4B8437905EBA1D98AF5381D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests" "-BC:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/Project.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\1eec41087558fefac0c4d1ae08241eac\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\4633ce77b84dcf684a592387c3ff1b6b\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\d9bb08b0c6a5eae743cefc5fcc528354\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E45186A9-0907-3AFA-85B9-7FC43E1C4714}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

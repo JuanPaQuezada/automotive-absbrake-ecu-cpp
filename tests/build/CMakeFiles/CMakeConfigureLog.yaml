@@ -1,0 +1,2522 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+      Build started 3/20/2026 7:19:48 PM.
+      
+      Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.63
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/4.3.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link.com"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link"
+      - "C:/Program Files/Graphviz/bin/lld-link.com"
+      - "C:/Program Files/Graphviz/bin/lld-link.exe"
+      - "C:/Program Files/Graphviz/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/mt.com"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/mt.exe"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/mt"
+      - "C:/Program Files/MATLAB/R2013b/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2013b/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2013b/bin/mt"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/mt"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/msys64/ucrt64/ucrt64/bin/mt.com"
+      - "C:/msys64/ucrt64/ucrt64/bin/mt.exe"
+      - "C:/msys64/ucrt64/ucrt64/bin/mt"
+      - "C:/msys64/ucrt64/bin/mt.com"
+      - "C:/msys64/ucrt64/bin/mt.exe"
+      - "C:/msys64/ucrt64/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/Juan Pablo/.dotnet/tools/mt.com"
+      - "C:/Users/Juan Pablo/.dotnet/tools/mt.exe"
+      - "C:/Users/Juan Pablo/.dotnet/tools/mt"
+      - "C:/Program Files/Graphviz/bin/mt.com"
+      - "C:/Program Files/Graphviz/bin/mt.exe"
+      - "C:/Program Files/Graphviz/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+      Build started 3/20/2026 7:19:49 PM.
+      
+      Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.55
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/4.3.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/bin/lld-link"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/ucrt64/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link.com"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Juan Pablo/.dotnet/tools/lld-link"
+      - "C:/Program Files/Graphviz/bin/lld-link.com"
+      - "C:/Program Files/Graphviz/bin/lld-link.exe"
+      - "C:/Program Files/Graphviz/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Project/bin/"
+      - "C:/Program Files (x86)/Project/sbin/"
+      - "C:/Program Files (x86)/Project/"
+    searched_directories:
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/rc.com"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/rc.exe"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/rc"
+      - "C:/Program Files/MATLAB/R2013b/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2013b/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2013b/bin/rc"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/rc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/msys64/ucrt64/ucrt64/bin/rc.com"
+      - "C:/msys64/ucrt64/ucrt64/bin/rc.exe"
+      - "C:/msys64/ucrt64/ucrt64/bin/rc"
+      - "C:/msys64/ucrt64/bin/rc.com"
+      - "C:/msys64/ucrt64/bin/rc.exe"
+      - "C:/msys64/ucrt64/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/Juan Pablo/.dotnet/tools/rc.com"
+      - "C:/Users/Juan Pablo/.dotnet/tools/rc.exe"
+      - "C:/Users/Juan Pablo/.dotnet/tools/rc"
+      - "C:/Program Files/Graphviz/bin/rc.com"
+      - "C:/Program Files/Graphviz/bin/rc.exe"
+      - "C:/Program Files/Graphviz/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/Project/bin/rc.com"
+      - "C:/Program Files (x86)/Project/bin/rc.exe"
+      - "C:/Program Files (x86)/Project/bin/rc"
+      - "C:/Program Files (x86)/Project/sbin/rc.com"
+      - "C:/Program Files (x86)/Project/sbin/rc.exe"
+      - "C:/Program Files (x86)/Project/sbin/rc"
+      - "C:/Program Files (x86)/Project/rc.com"
+      - "C:/Program Files (x86)/Project/rc.exe"
+      - "C:/Program Files (x86)/Project/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-wvfrej"
+      binary: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-wvfrej"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-wvfrej'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0736.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 3/20/2026 7:19:51 PM.
+        
+        Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvfrej\\cmTC_c0736.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvfrej\\Debug\\".
+          Creating directory "cmTC_c0736.dir\\Debug\\cmTC_c0736.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c0736.dir\\Debug\\cmTC_c0736.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c0736.dir\\Debug\\cmTC_c0736.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0736.dir\\Debug\\\\" /Fd"cmTC_c0736.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0736.dir\\Debug\\\\" /Fd"cmTC_c0736.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvfrej\\Debug\\cmTC_c0736.exe" /INCREMENTAL /ILK:"cmTC_c0736.dir\\Debug\\cmTC_c0736.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-wvfrej/Debug/cmTC_c0736.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-wvfrej/Debug/cmTC_c0736.lib" /MACHINE:X64  /machine:x64 cmTC_c0736.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c0736.vcxproj -> C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvfrej\\Debug\\cmTC_c0736.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c0736.dir\\Debug\\cmTC_c0736.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c0736.dir\\Debug\\cmTC_c0736.tlog\\cmTC_c0736.lastbuildstate".
+        Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvfrej\\cmTC_c0736.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-xbylvw"
+      binary: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-xbylvw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-xbylvw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_480f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 3/20/2026 7:19:52 PM.
+        
+        Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xbylvw\\cmTC_480f4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xbylvw\\Debug\\".
+          Creating directory "cmTC_480f4.dir\\Debug\\cmTC_480f4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_480f4.dir\\Debug\\cmTC_480f4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_480f4.dir\\Debug\\cmTC_480f4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_480f4.dir\\Debug\\\\" /Fd"cmTC_480f4.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_480f4.dir\\Debug\\\\" /Fd"cmTC_480f4.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xbylvw\\Debug\\cmTC_480f4.exe" /INCREMENTAL /ILK:"cmTC_480f4.dir\\Debug\\cmTC_480f4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-xbylvw/Debug/cmTC_480f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-xbylvw/Debug/cmTC_480f4.lib" /MACHINE:X64  /machine:x64 cmTC_480f4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_480f4.vcxproj -> C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xbylvw\\Debug\\cmTC_480f4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_480f4.dir\\Debug\\cmTC_480f4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_480f4.dir\\Debug\\cmTC_480f4.tlog\\cmTC_480f4.lastbuildstate".
+        Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xbylvw\\cmTC_480f4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:15 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2013b/bin/"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Juan Pablo/.dotnet/tools/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Project/bin/"
+      - "C:/Program Files (x86)/Project/sbin/"
+      - "C:/Program Files (x86)/Project/"
+      - "C:/Users/Juan Pablo/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/git.cmd.com"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/git.cmd.exe"
+      - "C:/Program Files/MATLAB/R2013b/runtime/win64/git.cmd"
+      - "C:/Program Files/MATLAB/R2013b/bin/git.cmd.com"
+      - "C:/Program Files/MATLAB/R2013b/bin/git.cmd.exe"
+      - "C:/Program Files/MATLAB/R2013b/bin/git.cmd"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/git.cmd.com"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/git.cmd.exe"
+      - "C:/Program Files/MATLAB/R2013b/polyspace/bin/git.cmd"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/Scripts/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python313/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/msys64/ucrt64/ucrt64/bin/git.cmd.com"
+      - "C:/msys64/ucrt64/ucrt64/bin/git.cmd.exe"
+      - "C:/msys64/ucrt64/ucrt64/bin/git.cmd"
+      - "C:/msys64/ucrt64/bin/git.cmd.com"
+      - "C:/msys64/ucrt64/bin/git.cmd.exe"
+      - "C:/msys64/ucrt64/bin/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/Juan Pablo/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Juan Pablo/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Juan Pablo/.dotnet/tools/git.cmd"
+      - "C:/Program Files/Graphviz/bin/git.cmd.com"
+      - "C:/Program Files/Graphviz/bin/git.cmd.exe"
+      - "C:/Program Files/Graphviz/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/Project/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Project/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Project/bin/git.cmd"
+      - "C:/Program Files (x86)/Project/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/Project/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/Project/sbin/git.cmd"
+      - "C:/Program Files (x86)/Project/git.cmd.com"
+      - "C:/Program Files (x86)/Project/git.cmd.exe"
+      - "C:/Program Files (x86)/Project/git.cmd"
+      - "C:/Users/Juan Pablo/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2285 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:721 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15"
+      - "python3"
+      - "python"
+      - "ipy3.15"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.15.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.15"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.15.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.15"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.15.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.15"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.15.com"
+      - "/REGISTRY-NOTFOUND/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/python3.15"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.15"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2285 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:721 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14"
+      - "python3"
+      - "python"
+      - "ipy3.14"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.14"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.14.com"
+      - "/REGISTRY-NOTFOUND/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/python3.14"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.14"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/python"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy64.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy64.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy64"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy32.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy32.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy32"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy.exe.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/bin/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/python"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy64.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy64.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy64"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy32.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy32.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy32"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy.exe.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/Scripts/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/python"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy64.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy64.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy64"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy32.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy32.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy32"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy.exe.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/share/ironpython3.14/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/python"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy64.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy64.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy64"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy32.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy32.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy32"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy.exe.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net45/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/python"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy64.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy64.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy64"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy32.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy32.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy32"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy.exe.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/net40/ipy.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python.com"
+    found: "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:721 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/"
+    searched_directories:
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14_d.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14_d.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3.14_d"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3_d.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3_d.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python3_d"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python_d.com"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python_d.exe"
+      - "C:/Users/Juan Pablo/AppData/Local/Programs/Python/Python314/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2013b\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2013b\\bin"
+        - "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\bin"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Juan Pablo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Juan Pablo\\.dotnet\\tools"
+        - "C:\\Program Files\\Graphviz\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-68k2rt"
+      binary: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-68k2rt"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-68k2rt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80e08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 3/20/2026 7:20:09 PM.
+        
+        Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\cmTC_80e08.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\Debug\\".
+          Creating directory "cmTC_80e08.dir\\Debug\\cmTC_80e08.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_80e08.dir\\Debug\\cmTC_80e08.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_80e08.dir\\Debug\\cmTC_80e08.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_80e08.dir\\Debug\\\\" /Fd"cmTC_80e08.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_80e08.dir\\Debug\\\\" /Fd"cmTC_80e08.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\src.c"
+          src.c
+        C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\cmTC_80e08.vcxproj]
+        Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\cmTC_80e08.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\cmTC_80e08.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68k2rt\\cmTC_80e08.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-l8pu0l"
+      binary: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-l8pu0l"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-l8pu0l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_87be4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 3/20/2026 7:20:10 PM.
+        
+        Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\cmTC_87be4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\Debug\\".
+          Creating directory "cmTC_87be4.dir\\Debug\\cmTC_87be4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_87be4.dir\\Debug\\cmTC_87be4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_87be4.dir\\Debug\\cmTC_87be4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_87be4.dir\\Debug\\\\" /Fd"cmTC_87be4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_87be4.dir\\Debug\\\\" /Fd"cmTC_87be4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\Debug\\cmTC_87be4.exe" /INCREMENTAL /ILK:"cmTC_87be4.dir\\Debug\\cmTC_87be4.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-l8pu0l/Debug/cmTC_87be4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-l8pu0l/Debug/cmTC_87be4.lib" /MACHINE:X64  /machine:x64 cmTC_87be4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\cmTC_87be4.vcxproj]
+        Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\cmTC_87be4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\cmTC_87be4.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8pu0l\\cmTC_87be4.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-6y31zf"
+      binary: "C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-6y31zf"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-6y31zf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f67c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 3/20/2026 7:20:11 PM.
+        
+        Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\cmTC_f67c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\Debug\\".
+          Creating directory "cmTC_f67c3.dir\\Debug\\cmTC_f67c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f67c3.dir\\Debug\\cmTC_f67c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f67c3.dir\\Debug\\cmTC_f67c3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f67c3.dir\\Debug\\\\" /Fd"cmTC_f67c3.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f67c3.dir\\Debug\\\\" /Fd"cmTC_f67c3.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\Debug\\cmTC_f67c3.exe" /INCREMENTAL /ILK:"cmTC_f67c3.dir\\Debug\\cmTC_f67c3.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-6y31zf/Debug/cmTC_f67c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/CMakeFiles/CMakeScratch/TryCompile-6y31zf/Debug/cmTC_f67c3.lib" /MACHINE:X64  /machine:x64 cmTC_f67c3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\cmTC_f67c3.vcxproj]
+        Done Building Project "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\cmTC_f67c3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\cmTC_f67c3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Juan Pablo\\Documents\\programasC\\PracticasCuni\\EstructurasDatos2A\\abs-braking-sensorsNetworks\\tests\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y31zf\\cmTC_f67c3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+...
