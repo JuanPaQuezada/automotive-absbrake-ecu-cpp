@@ -52,6 +52,9 @@ arm-none-eabi-g++ main.o sensor_abs.o -o firmware.elf
 arm-none-eabi-objcopy -O binary firmware.elf firmware.bin
 ```
 
+### Automated Unit Testing & Mocking
+The ABS braking algorithm is strictly decoupled from the hardware using Dependency Inversion. Hardware peripherals are mocked using "Test Doubles" (e.g., fake_sensor_abs), allowing the core business logic to be rigorously verified on the host-machine using Google Test before flashing the firmware to the ARM microcontroller.
+
 ## Author
 
 **Juan Pablo Quezada**
