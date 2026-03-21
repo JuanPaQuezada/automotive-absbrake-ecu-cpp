@@ -1,0 +1,3 @@
+C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Juan Pablo/Documents/programasC/PracticasCuni/EstructurasDatos2A/abs-braking-sensorsNetworks/tests/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

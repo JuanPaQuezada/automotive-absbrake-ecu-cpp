@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Pablo\Documents\programasC\PracticasCuni\EstructurasDatos2A\abs-braking-sensorsNetworks\tests\build\CMakeFiles\28452ce15349d6cab9bf593f105d45f7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4210D84F-CFBA-3098-8D15-D933D807C9A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
