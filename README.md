@@ -23,10 +23,17 @@ This repository contains a modular, production-ready C++ implementation designed
 ## Project Structure
 ```text
 📦 project-root
- ┣ 📜 ring_buffer.h    # Generic template logic for the telemetry buffer
- ┣ 📜 sensor_abs.h     # Interface and RAII class for the ABS wheel sensor
- ┣ 📜 sensor_abs.cpp   # Low-level memory mapping for the ABS hardware
- ┗ 📜 main.cpp         # Main ECU application logic
+ ┣ 📂 includes
+ ┃ ┣ 📜 ring_buffer.h         # Generic template logic for the O(1) telemetry buffer
+ ┃ ┣ 📜 isensor_velocidad.h   # Pure virtual interface for Dependency Inversion
+ ┃ ┣ 📜 sensor_abs.h          # Strong Types and RAII class for the ABS sensor
+ ┃ ┗ 📜 algoritmo_abs.h       # Core ABS braking business logic (Hardware independent)
+ ┣ 📂 tests
+ ┃ ┣ 📜 CMakeLists.txt        # Build configuration for Fetching Google Test
+ ┃ ┗ 📜 test_abs.cpp          # Unit tests injecting 'fake_sensor_abs' (Mock)
+ ┣ 📜 sensor_abs.cpp          # Low-level Type-Safe HAL implementation
+ ┣ 📜 main.cpp                # Main ECU application logic and Panic Handling
+ ┗ 📜 README.md               # Project documentation
 ```
 
 ## How to Build & Run
