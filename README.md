@@ -56,9 +56,9 @@ arm-none-eabi-objcopy -O binary firmware.elf firmware.bin
 The ABS braking algorithm is strictly decoupled from the hardware using Dependency Inversion. Hardware peripherals are mocked using "Test Doubles" (e.g., fake_sensor_abs), allowing the core business logic to be rigorously verified on the host-machine using Google Test before flashing the firmware to the ARM microcontroller.
 
 ### Running Automated Tests (CMake & Google Test)
-This project uses **CMake** for build automation and test dependency management [1]. The `build/` directory is intentionally ignored by Git to prevent cross-platform binary conflicts. 
+This project uses **CMake** for build automation and test dependency management. The `build/` directory is intentionally ignored by Git to prevent cross-platform binary conflicts. 
 
-Anyone cloning this repository [2] will only need the source code and the `CMakeLists.txt` files. Your local computer will generate its own build environment. To configure, compile, and run the tests, navigate to the `tests/` directory and execute the following commands [3]:
+Anyone cloning this repository will only need the source code and the `CMakeLists.txt` files. Your local computer will generate its own build environment. To configure, compile, and run the tests, navigate to the `tests/` directory and execute the following commands:
 
 ```bash
 # 1. Navigate to the tests directory
