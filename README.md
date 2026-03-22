@@ -85,6 +85,9 @@ cmake --build .
 ./test_abs
 ```
 
+<img width="834" height="263" alt="image" src="https://github.com/user-attachments/assets/968ca42b-7c12-4212-bf1a-56c9fb8bf4c3" />
+
+
 ## Author
 
 **Juan Pablo Quezada**
