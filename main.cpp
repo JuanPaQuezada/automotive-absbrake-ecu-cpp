@@ -2,6 +2,9 @@
 #include "./includes/sensor_abs.h"
 #include <cstdlib>
 #include <exception>
+#include "./includes/estado_abs.h"
+#include "./includes/eventos_abs.h"
+
 using namespace std;
 //Implementar asserts ligeros
 //Es un microcontrolador real, hal::get_pc() leeria el program counter mediante ensamblador
